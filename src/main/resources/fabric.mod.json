@@ -1,0 +1,22 @@
+{
+    "schemaVersion": 1,
+    "id": "chatwheel",
+    "version": "1.0.0",
+    "name": "Chat Wheel",
+    "description": "Listens for payments and spins an in-game wheel when a target is reached.",
+    "authors": [
+        "Generated"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.example.chatwheel.ChatWheelMod"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "fabric": "*"
+    }
+}
