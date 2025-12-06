@@ -1,0 +1,22 @@
+{
+    "schemaVersion": 1,
+    "id": "chatwheelweighted",
+    "version": "1.0.0",
+    "name": "Chat Wheel Weighted",
+    "description": "Weighted in-game spinning wheel mod with configurable target total.",
+    "authors": [
+        "Generated"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.example.chatwheelweighted.ChatWheelMod"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "fabric": "*"
+    }
+}
